@@ -1,0 +1,23 @@
+# The Lord Ravagers (Detail)
+
+## Summary
+
+The Lord Ravagers are seven especially powerful agents of Nanook, the Aeon of Destruction, each pursuing annihilation through a distinct personal philosophy — ranging from Phantylia's psychological erasure to Irontomb's technological corruption to Asat Pramad's patient strategic manipulation. Two of them, Phantylia and Irontomb, serve as primary antagonists of the Xianzhou Luofu and Amphoreus arcs respectively, continuing a recurring pattern of Destruction's agents lurking behind seemingly unrelated regional crises. The group is frequently but incorrectly conflated with the Stellaron Hunters; this entry correctly notes the two are not aligned, since the Stellaron Hunters are tied to the Path of Finality and, per Elio's Script, are ultimately working toward opposing Nanook rather than serving him.
+
+## Overview
+
+Seven especially powerful agents of Nanook, the Aeon of Destruction, each pursuing annihilation according to a distinct personal philosophy. Often mistaken for allies of the [Stellaron Hunters](../stellaron-hunters.md) because their operations tend to converge on the same crisis points, but the two groups are not aligned: the Stellaron Hunters are tied to the Path of Finality and are, per Elio's Script, ultimately working toward opposing Nanook rather than serving him. Two Lord Ravagers — Phantylia and Irontomb — are primary antagonists of arcs covered elsewhere in this compendium.
+
+## The Seven Lord Ravagers
+
+- **[Asat Pramad](../../characters/detail/asat-pramad.md) ("Requietor" / "the Destroyer of Elation")** — orchestrates destruction from a strategic distance, "more chess master than warlord," and marks fully conquered worlds with a mocking, gigantic smiling face. The primary antagonist of the Planarcadia arc (v4.x).
+- **Zephyro ("Savage White Flame")** — regarded as the most terrifying of the seven, obsessed with the "beauty of absolute erasure" in a world's final moment; his devastation manifests as overwhelming white light (linked to white-hole-like phenomena) that erases targets instantaneously. He is reputedly the only Lord Ravager who grants "a death without pain," making an encounter with him considered the most fortunate way to be destroyed.
+- **Celenova ("the destroyer of Harmony")** — the "frontline general" of Nanook, leading the Antimatter Legion in large coordinated campaigns with Voidrangers and starships. She specifically targets powerless civilizations whose prayers for aid are heard by the Family, destroying both the petitioners and their enemies alike — following what's described as the path of the "Cancer of All Worlds."
+- **Luxbane ("the Sun Devourer")** — a colossal entity that extinguishes stars rather than attacking planets directly, spreading a light-absorbing material through star systems; blamed for snuffing out roughly a third of the stars in the Yvanna Chain over nearly three centuries, one of the Antimatter Legion's most notorious atrocities.
+- **Archforger ("Lord Ravager of the Antimatter Legion")** — the principal architect and weapon-forger of the Antimatter Legion, working through heat, forging, and shaping rather than direct combat; creates the Voidrangers and other engines of extinction, including at least one full-world conversion to antimatter that ended in total annihilation.
+- **[Phantylia](../../characters/detail/tingyun-phantylia.md)** — a Heliobi shapeshifter who prefers psychological over physical destruction, believing "true annihilation" happens when something vanishes mentally and spiritually rather than merely bodily. Infiltrated the Xianzhou Luofu disguised as the merchant Tingyun.
+- **[Irontomb](../../characters/detail/irontomb.md)** — manifests within advanced civilizations by corrupting their own technology into a kind of virus, turning progress itself into "cold graves" through a subversion of logic and calculation. The primary antagonist of the Amphoreus arc's climax.
+
+## Thematic pattern
+
+Each Lord Ravager represents a different theory of what "true" destruction actually means — physical erasure, psychological erasure, technological corruption, deception-adjacent exploitation, strategic coordination, or slow strategic patience — giving Nanook's Path a surprising amount of internal philosophical variety rather than presenting Destruction as a single uniform threat. The series consistently reveals a Lord Ravager (or an Emanator closely tied to one) as the hidden hand behind each major regional crisis, a pattern established with Phantylia on the Xianzhou Luofu and continued through Irontomb on Amphoreus and Asat Pramad on Planarcadia — with the Stellaron Hunters typically arriving at the same crises from the opposing side, not as collaborators.

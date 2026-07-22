@@ -1,0 +1,10 @@
+title: Honkai: Star Rail Lore Compendium
+description: A fan-made lore compendium for Honkai: Star Rail
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+include:
+  - README.md
