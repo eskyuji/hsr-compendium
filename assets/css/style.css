@@ -1,0 +1,347 @@
+/* Honkai: Star Rail Lore Compendium — dark theme */
+
+:root {
+  --bg: #0a0c12;
+  --bg-elevated: #12151f;
+  --bg-elevated-2: #171b28;
+  --border: #262b3d;
+  --text: #e7e9f2;
+  --text-muted: #949ab3;
+  --accent: #e8b95e;
+  --accent-soft: rgba(232, 185, 94, 0.12);
+  --accent-2: #8f7fe0;
+  --shadow: rgba(0, 0, 0, 0.45);
+  --radius: 10px;
+  --content-width: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  background-image:
+    radial-gradient(ellipse 900px 500px at 15% -10%, rgba(143, 127, 224, 0.16), transparent 60%),
+    radial-gradient(ellipse 900px 500px at 85% -10%, rgba(232, 185, 94, 0.10), transparent 60%);
+  background-repeat: no-repeat;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+::selection {
+  background: var(--accent-2);
+  color: #0a0c12;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Header */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(10, 12, 18, 0.82);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.01em;
+}
+
+.brand:hover {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.brand-mark {
+  color: var(--accent);
+  font-size: 15px;
+}
+
+.site-nav {
+  display: flex;
+  gap: 22px;
+  font-size: 14.5px;
+  font-weight: 500;
+}
+
+.site-nav a {
+  color: var(--text-muted);
+}
+
+.site-nav a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* Content */
+
+.content {
+  flex: 1;
+  padding-top: 48px;
+  padding-bottom: 72px;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5 {
+  color: var(--text);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  scroll-margin-top: 84px;
+}
+
+.content h1 {
+  font-size: 2.1em;
+  line-height: 1.25;
+  margin: 0 0 0.5em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--border);
+}
+
+.content h2 {
+  font-size: 1.5em;
+  margin: 1.8em 0 0.7em;
+  color: var(--accent);
+}
+
+.content h3 {
+  font-size: 1.2em;
+  margin: 1.6em 0 0.6em;
+}
+
+.content h4 {
+  font-size: 1.02em;
+  margin: 1.4em 0 0.5em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.content p {
+  margin: 0.9em 0;
+}
+
+.content ul,
+.content ol {
+  margin: 0.9em 0;
+  padding-left: 1.4em;
+}
+
+.content li {
+  margin: 0.35em 0;
+}
+
+.content li::marker {
+  color: var(--accent-2);
+}
+
+.content strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5em 0;
+}
+
+.content blockquote {
+  margin: 1.2em 0;
+  padding: 0.2em 1.2em;
+  border-left: 3px solid var(--accent-2);
+  color: var(--text-muted);
+  font-style: italic;
+  background: var(--bg-elevated);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Inline code + code blocks */
+
+.content code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.86em;
+  background: var(--bg-elevated-2);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 0.15em 0.4em;
+  color: #f0d9a8;
+}
+
+.content pre {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  overflow-x: auto;
+}
+
+.content pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--text);
+}
+
+/* Tables */
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.4em 0;
+  font-size: 0.94em;
+  display: block;
+  overflow-x: auto;
+  border-radius: var(--radius);
+}
+
+.content th,
+.content td {
+  border: 1px solid var(--border);
+  padding: 10px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.content th {
+  background: var(--bg-elevated-2);
+  color: var(--accent);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.content tr:nth-child(even) td {
+  background: var(--bg-elevated);
+}
+
+/* Collapsible file tree */
+
+.content details {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  margin: 1.2em 0;
+}
+
+.content summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--accent);
+  outline: none;
+}
+
+.content summary::marker {
+  color: var(--accent-2);
+}
+
+.content details[open] summary {
+  margin-bottom: 12px;
+}
+
+.content details ul {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.85em;
+}
+
+/* Images */
+
+.content img {
+  max-width: 100%;
+  border-radius: var(--radius);
+}
+
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0 40px;
+}
+
+.site-footer p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 13.5px;
+}
+
+.site-footer a {
+  color: var(--text-muted);
+  text-decoration: underline;
+}
+
+.site-footer a:hover {
+  color: var(--accent);
+}
+
+/* Responsive */
+
+@media (max-width: 560px) {
+  body {
+    font-size: 16px;
+  }
+
+  .content {
+    padding-top: 32px;
+  }
+
+  .content h1 {
+    font-size: 1.7em;
+  }
+
+  .site-nav {
+    gap: 16px;
+  }
+}
