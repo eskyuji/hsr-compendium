@@ -8,7 +8,7 @@ A fan-made lore compendium for **Honkai: Star Rail**, covering the story arcs, f
 
 Click any file below to open it directly. (`characters/` and `factions/` each split into an era-roster / faction-index layer at the top level, plus a `detail/` subfolder with the full per-entry profiles.)
 
-<details>
+<details markdown="1">
 <summary>Click to expand</summary>
 
 - [00-index.md](00-index.md)
