@@ -1,5 +1,5 @@
-title: Honkai: Star Rail Lore Compendium
-description: A fan-made lore compendium for Honkai: Star Rail
+title: "Honkai: Star Rail Lore Compendium"
+description: "A fan-made lore compendium for Honkai: Star Rail"
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-optional-front-matter
